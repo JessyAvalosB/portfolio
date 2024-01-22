@@ -1,0 +1,18 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 48px;
+    padding: 0 24px;
+    margin-bottom: 24px;
+}
+
+.navLinks {
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+    & li:nth-child(odd) {
+        margin: 0 16px;
+    }
+}
