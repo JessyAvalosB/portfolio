@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --rem: 8px;
+  --primary: var(--light-blue-500);
+  --secondary: var(--light-brown-500);
+  --acent: var(--light-purple-500);
+  --text-color: var(--shade-50);
+  --background: var(--shade-10);
+
+  --white: #ffffff;
+  --black: #000000;
+
+  --shade-90: #0D0D0D;
+  --shade-80: #171717;
+  --shade-70: #212121;
+  --shade-60: #2B2B2B;
+  --shade-50: #333333;
+  --shade-40: #636363;
+  --shade-30: #939393;
+  --shade-20: #C3C3C3;
+  --shade-10: #F2F2F2;
+
+  --blue-900: #00111A;
+  --light-blue-800: #00202F;
+  --light-blue-700: #002F44;
+  --light-blue-600: #003E59;
+  --light-blue-500: #004B6F;
+  --light-blue-400: #397693;
+  --light-blue-300: #72A1B7;
+  --light-blue-200: #ABCCDB;
+
+  --dark-blue-800: #244453;
+  --dark-blue-700: #48778C;
+  --dark-blue-600: #6CAAC5;
+  --dark-blue-500: #8FDBFF;
+  --dark-blue-400: #A5E2FF;
+  --dark-blue-300: #BBE9FF;
+  --dark-blue-200: #D1F0FF;
+  --blue-100: #E5F7FF;
+
+  --brown-900: #1A0800;
+  --light-brown-800: #300F00;
+  --light-brown-700: #461600;
+  --light-brown-600: #5C1D00;
+  --light-brown-500: #702300;
+  --light-brown-400: #945639;
+  --light-brown-300: #B88972;
+  --light-brown-200: #DCBCAB;
+
+  --dark-brown-800: #533324;
+  --dark-brown-700: #8C5E48;
+  --dark-brown-600: #C5896C;
+  --dark-brown-500: #FFB28F;
+  --dark-brown-400: #FFC1A5;
+  --dark-brown-300: #FFD0BB;
+  --dark-brown-200: #FFDFD1;
+  --brown-100: #FFEEE5;
+
+  --purple-900: #1A0011;
+  --light-purple-800: #300020;
+  --light-purple-700: #46002F;
+  --light-purple-600: #5C003E;
+  --light-purple-500: #70004D;
+  --light-purple-400: #943978;
+  --light-purple-300: #B872A3;
+  --light-purple-200: #DCABCE;
+
+  --dark-purple-800: #532444;
+  --dark-purple-700: #8C4877;
+  --dark-purple-600: #C56CAA;
+  --dark-purple-500: #FF8FDB;
+  --dark-purple-400: #FFA5E2;
+  --dark-purple-300: #FFBBE9;
+  --dark-purple-200: #FFD1F0;
+  --purple-100: #FFE5F7;
+}
+
+.dark-mode {
+  --primary: var(--dark-blue-500);
+  --secondary: var(--dark-brown-500);
+  --acent: var(--dark-purple-500);
+  --text-color: var(--shade-20);
+  --background: var(--shade-90);
+}
+
+@font-face {
+  font-family: "PT_Sans";
+  src: url("../public/fonts/PT_Sans/PTSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../public/fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Scope_One";
+  src: url("../public/fonts/Scope_One/ScopeOne-Regular.ttf");
+}
