@@ -43,3 +43,17 @@ export const SecondaryOutline: Story = {
     variant: 'secondaryOutline',
   },
 };
+
+export const PrimaryGhost: Story = {
+  args: {
+    children: 'Primary Ghost',
+    variant: 'primaryGhost',
+  }
+}
+
+export const SecondaryGhost: Story = {
+  args: {
+    children: 'Secondary Ghost',
+    variant: 'secondaryGhost',
+  }
+}

@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 
 export type ButtonTypes = 'button' | 'submit' | 'reset';
-export type ButtonVariants = 'primary' | 'secondary' | 'primaryOutline' | 'secondaryOutline';
+export type ButtonVariants = 'primary' | 'secondary' | 'primaryOutline' | 'secondaryOutline' | 'primaryGhost' | 'secondaryGhost';
 
 interface ButtonPops {
     children: ReactNode;
@@ -21,6 +21,10 @@ export const Button = ({ children, type = 'button', onClick, disabled = false, a
                 return 'bg-secondary font-normal text-sm text-text-color enabled:hover:bg-brown-600 enabled:active:bg-brown-700';
             case 'secondaryOutline':
                 return 'text-secondary font-bold border-2 border-secondary enabled:hover:bg-brown-500 enabled:active:bg-brown-600 enabled:hover:text-text-color';
+            case 'primaryGhost':
+                return 'text-primary font-bold enabled:hover:text-blue-600 enabled:active:text-blue-700';
+            case 'secondaryGhost':
+                return 'text-secondary font-bold enabled:hover:text-brown-600 enabled:active:text-brown-700';
             case 'primary':
             default:
                 return 'bg-primary font-normal text-sm text-text-color enabled:hover:bg-blue-600 enabled:active:bg-blue-700';
@@ -28,7 +32,7 @@ export const Button = ({ children, type = 'button', onClick, disabled = false, a
     }
     return (
         <button
-            className={`flex py-2 px-4 rounded-2xl disabled:opacity-50 ${getButtonVariantClass()}`}
+            className={`flex py-2 px-4 rounded-2xl hover:transition-all ease-in-out disabled:opacity-50  ${getButtonVariantClass()}`}
             type={type}
             onClick={onClick}
             disabled={disabled}
