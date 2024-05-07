@@ -22,6 +22,7 @@ const meta = {
 } satisfies Meta<typeof Input>;
 
 export default meta;
+
 type Story = StoryObj<typeof meta>;
 
 export const Text: Story = {
@@ -31,7 +32,7 @@ export const Text: Story = {
     },
 };
 
-export const Passwords: Story = {
+export const Password: Story = {
     args: {
         type: 'password',
         placeholder: 'Password'
