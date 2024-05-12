@@ -1,5 +1,18 @@
 import type { Config } from "tailwindcss";
 
+const defaultFontSize = {
+  'xs': '0.563rem',  // 9px
+  'sm': '0.75rem', // 12px
+  'base': '1rem',   // 16px
+  'lg': '1.125rem', // 18px
+  'xl': '1.333rem',  // 21.33px
+  '2xl': '1.777rem',  // 28.43px
+  '3xl': '2.369rem',// 37.9px
+  '4xl': '3.157rem', // 50.52px
+  '5xl': '4.209rem',    // 67.34px
+  '6xl': '5.61rem',    // 89.76px
+};
+
 const config: Config = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -81,6 +94,9 @@ const config: Config = {
       roboto: ["Roboto", "sans-serif"],
       scopeOne: ["Scope_One", "sans-serif"],
     },
+    fontSize: {
+      ...defaultFontSize,
+    }
   },
   plugins: [],
 };
