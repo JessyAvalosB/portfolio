@@ -1,5 +1,14 @@
 import type { Config } from "tailwindcss";
 
+const defaultScreenSizes = {
+  xs: '320px',
+  sm: '480px',
+  md: '768px',
+  lg: '1024px',
+  xl: '1200px',
+  '2xl': '1440px',
+  '3xl': '1600px',
+}
 const defaultFontSize = {
   'xs': '0.563rem',  // 9px
   'sm': '0.75rem', // 12px
@@ -22,10 +31,7 @@ const config: Config = {
   ],
   theme: {
     screens: {
-      sm: '480px',
-      md: '768px',
-      lg: '976px',
-      xl: '1440px',
+      ...defaultScreenSizes,
     },
     colors: {
       'primary': {
