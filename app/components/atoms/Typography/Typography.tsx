@@ -7,13 +7,12 @@ import {
 export const Typography = ({
     children,
     variant = 'p',
-    color = 'inherit',
+    className = '',
 }: TypographyPops) => {
     const Component = getTypographyVariants(variant);
     return (
         <Component
-            style={{ color }}
-            className={`${getTypographyClass(variant)}`}>
+            className={`${className} ${getTypographyClass(variant)} select-none transition-all duration-300`}>
             {children}
         </Component>
     )

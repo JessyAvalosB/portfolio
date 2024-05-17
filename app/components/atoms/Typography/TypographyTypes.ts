@@ -5,7 +5,7 @@ type TypographyVariants = 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'body' | 'bo
 export interface TypographyPops {
     children: ReactNode;
     variant?: TypographyVariants;
-    color?: string;
+    className?: string;
 }
 
 const typographyClasses = {
@@ -20,7 +20,7 @@ const typographyClasses = {
     small: 'text-sm font-normal',
     inputLabel: 'text-base font-semibold',
     link: 'text-lg font-normal hover:underline hover:cursor-pointer',
-    navLink: 'text-lg font-bold hover:underline hover:cursor-pointer',
+    navLink: 'text-lg font-bold hover:text-blue-700 active:text-blue-500 hover:cursor-pointer',
     default: 'text-sm font-normal',
 }
 

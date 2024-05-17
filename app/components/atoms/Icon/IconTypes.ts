@@ -4,6 +4,7 @@ export interface IconProps {
     icon: IIcon;
     size?: IconSizes;
     onClick?: () => void;
+    className?: string;
 }
 
 export interface IIcon {
