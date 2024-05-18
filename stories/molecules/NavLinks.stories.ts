@@ -1,14 +1,17 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { NavBar } from '@/app/components/';
+import { NavLinks } from '@/app/components/';
 
 const meta = {
-    title: 'Molecules/NavBar',
-    component: NavBar,
+    title: 'Molecules/NavLinks',
+    component: NavLinks,
+    parameters: {
+        layout: 'centered',
+    },
     tags: ['autodocs'],
     argTypes: {
     },
     args: {},
-} satisfies Meta<typeof NavBar>;
+} satisfies Meta<typeof NavLinks>;
 
 export default meta;
 
