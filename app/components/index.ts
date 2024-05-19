@@ -6,6 +6,7 @@ export { Typography } from './atoms/Typography/Typography';
 
 export { NavTitle } from './molecules/NavTitle';
 export { NavLinks } from './molecules/NavLinks';
-export {NavMenu} from './molecules/NavMenu';
+export { NavMenu } from './molecules/NavMenu';
+export { TextIcon } from './molecules/TextIcon/TextIcon';
 
 export { NavBar } from './organisms/NavBar';
