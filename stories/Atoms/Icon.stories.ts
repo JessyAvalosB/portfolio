@@ -1,7 +1,7 @@
 import { Meta, StoryObj } from "@storybook/react";
 import { fn } from "@storybook/test";
 import { Icon } from "@/app/components";
-import { Icons } from "@/app/components/atoms/Icon/Icons";
+import { IconsEnum } from "@/app/components/atoms/Icon/IconTypes";
 
 const meta = {
     title: 'Atoms/Icon',
@@ -11,9 +11,10 @@ const meta = {
     },
     tags: ['autodocs'],
     args: {
-        icon: Icons.androidSttudio,
+        icon: IconsEnum.androidSttudio,
         onClick: fn(),
-        size: "sm"
+        size: "sm",
+        className: "",
     },
 } satisfies Meta<typeof Icon>;
 
