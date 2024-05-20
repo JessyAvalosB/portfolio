@@ -78,6 +78,12 @@
   --purple-100: #FFE5F7;
 }
 
+html, body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
 .dark-mode {
   --primary: var(--dark-blue-500);
   --secondary: var(--dark-brown-500);

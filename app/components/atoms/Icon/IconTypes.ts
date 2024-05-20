@@ -1,3 +1,4 @@
+import xTwitter from '@/public/icons/x-twitter.svg';
 export type IconSizes = 'xs' | 'sm' | 'md' | 'lg';
 export type IconsListType = {
     [key in IconsEnum]: IIcon;
@@ -60,6 +61,7 @@ export enum IconsEnum {
     vitejs = 'vitejs',
     vscode = 'vscode',
     vuejs = 'vuejs',
+    xTwitter = 'xTwitter',
 }
 
 export interface IconProps {

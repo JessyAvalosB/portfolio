@@ -11,7 +11,7 @@ const meta = {
     },
     tags: ['autodocs'],
     args: {
-        icon: IconsEnum.androidSttudio,
+        icon: IconsEnum.home,
         onClick: fn(),
         size: "sm",
         className: "",

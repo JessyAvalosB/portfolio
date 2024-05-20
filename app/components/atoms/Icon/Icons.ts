@@ -55,6 +55,7 @@ import user from '@/public/icons/user.svg';
 import vitejs from '@/public/icons/vitejs.svg';
 import vscode from '@/public/icons/vscode.svg';
 import vuejs from '@/public/icons/vue-js.svg';
+import xTwitter from '@/public/icons/x-twitter.svg'
 
 export const Icons: IconsListType = {
     androidSttudio: androidSttudio,
@@ -113,4 +114,5 @@ export const Icons: IconsListType = {
     vitejs: vitejs,
     vscode: vscode,
     vuejs: vuejs,
+    xTwitter: xTwitter,
 }

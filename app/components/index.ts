@@ -10,3 +10,4 @@ export { NavMenu } from './molecules/NavMenu';
 export { TextIcon } from './molecules/TextIcon/TextIcon';
 
 export { NavBar } from './organisms/NavBar';
+export { Footer } from './organisms/Footer';
