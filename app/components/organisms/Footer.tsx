@@ -1,41 +1,45 @@
-import { TextIcon, Typography } from '@/app/components'
+import { TextIcon, Typography, SocialLink } from '@/app/components'
+import { SocialLinkEnum } from '../molecules/SocialLink/SocialLinkTypes'
 import { IconsEnum } from '../atoms/Icon/IconTypes'
+import Link from 'next/link'
 
 export const Footer = () => {
     return (
         <div
             className="flex flex-col items-center gap-2 p-5">
             <div className='flex gap-2 p-2'>
-                <TextIcon
-                    icon={IconsEnum.linkedin}
-                    text='LinkedIn'
-                    iconSide='left' />
-                <TextIcon
-                    icon={IconsEnum.github}
-                    text='GitHub'
-                    iconSide='left' />
-                <TextIcon
-                    icon={IconsEnum.xTwitter}
-                    text='X'
-                    iconSide='left' />
+                <SocialLink
+                    icon={SocialLinkEnum.linkedin} />
+                <SocialLink
+                    icon={SocialLinkEnum.github} />
+                <SocialLink
+                    icon={SocialLinkEnum.xTwitter} />
             </div>
             <div className='flex flex-wrap justify-center p-2 gap-x-2 gap-y-1'>
-                <TextIcon
-                    icon={IconsEnum.home}
-                    text='Home'
-                    iconSide='left' />
-                <TextIcon
-                    icon={IconsEnum.briefCase}
-                    text='Experience'
-                    iconSide='left' />
-                <TextIcon
-                    icon={IconsEnum.noteBook}
-                    text='Blog'
-                    iconSide='left' />
-                <TextIcon
-                    icon={IconsEnum.mailBox}
-                    text='Contact'
-                    iconSide='left' />
+                <Link href='/'>
+                    <TextIcon
+                        icon={IconsEnum.home}
+                        text='Home'
+                        iconSide='left' />
+                </Link>
+                <Link href='/experience'>
+                    <TextIcon
+                        icon={IconsEnum.briefCase}
+                        text='Experience'
+                        iconSide='left' />
+                </Link>
+                <Link href='/blog'>
+                    <TextIcon
+                        icon={IconsEnum.noteBook}
+                        text='Blog'
+                        iconSide='left' />
+                </Link>
+                <Link href='/contact'>
+                    <TextIcon
+                        icon={IconsEnum.mailBox}
+                        text='Contact'
+                        iconSide='left' />
+                </Link>
             </div>
             <Typography variant='body2' className='text-center'>
                 © 2023 Jessy Avalos Barrales. All rights reserved.
