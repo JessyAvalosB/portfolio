@@ -7,7 +7,7 @@ export const Footer = () => {
     return (
         <div
             className="flex flex-col items-center gap-2 p-5">
-            <div className='flex gap-2 p-2'>
+            <div className='flex gap-3 p-2'>
                 <SocialLink
                     icon={SocialLinkEnum.linkedin} />
                 <SocialLink
@@ -15,7 +15,7 @@ export const Footer = () => {
                 <SocialLink
                     icon={SocialLinkEnum.xTwitter} />
             </div>
-            <div className='flex flex-wrap justify-center p-2 gap-x-2 gap-y-1'>
+            <div className='flex flex-wrap justify-center p-2 gap-x-3 gap-y-1'>
                 <Link href='/'>
                     <TextIcon
                         icon={IconsEnum.home}

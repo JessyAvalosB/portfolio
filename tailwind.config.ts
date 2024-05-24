@@ -47,8 +47,8 @@ const config: Config = {
         dark: '#FF8FDB'
       },
       'text-color': {
-        DEFAULT: '#F2F2F2',
-        dark: '#0D0D0D'
+        DEFAULT: '#333333',
+        dark: '#F2F2F2'
       },
       'blue': {
         900: '#00111A',

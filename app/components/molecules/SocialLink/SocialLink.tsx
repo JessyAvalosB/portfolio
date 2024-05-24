@@ -3,10 +3,8 @@ import { TextIcon } from '@/app/components'
 import { IconsEnum } from "../../atoms/Icon/IconTypes";
 import { SocialLinkProps, socialLinkList } from "./SocialLinkTypes";
 
-
-
 export const SocialLink = ({ icon }: SocialLinkProps) => {
-    const {href, label } = socialLinkList[icon]
+    const { href, label } = socialLinkList[icon]
     return (
         <Link href={href} target="_blank">
             <TextIcon
