@@ -24,7 +24,8 @@ export const AboutMe = () => {
                     About Me
                 </Typography>
                 <Typography
-                    variant='body2'>
+                    variant='body2'
+                    className='max-w-sm'>
                     I&apos;m a front-end developer with a passion for creating beautiful and intuitive user interfaces. I love turning designs into code and making websites come to life.
                 </Typography>
             </div>
