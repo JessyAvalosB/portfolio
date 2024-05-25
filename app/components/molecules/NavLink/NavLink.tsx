@@ -1,7 +1,8 @@
 'use client'
 import Link from "next/link"
-import { Typography } from '@/app/components'
 import { usePathname } from "next/navigation";
+
+import { Typography } from '@/components'
 
 export interface NavLinkProps {
     label: string;

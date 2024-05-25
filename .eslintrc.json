@@ -2,5 +2,12 @@
   "extends": [
     "next/core-web-vitals",
     "plugin:storybook/recommended"
-  ]
+  ],
+  "settings": {
+    "import/resolver": {
+      "typescript": {
+        "project": ["tsconfig.json"]
+      }
+    }
+  }
 }

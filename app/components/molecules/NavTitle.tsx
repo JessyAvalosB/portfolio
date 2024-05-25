@@ -2,7 +2,7 @@
 import Link from "next/link"
 import { usePathname } from "next/navigation";
 
-import { Typography } from '@/app/components'
+import { Typography } from '@/components'
 
 export const NavTitle = ({ }) => {
     const pathName = usePathname();

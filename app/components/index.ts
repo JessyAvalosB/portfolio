@@ -12,3 +12,4 @@ export { TextIcon } from './molecules/TextIcon/TextIcon';
 
 export { NavBar } from './organisms/NavBar';
 export { Footer } from './organisms/Footer';
+export { AboutMe } from './organisms/AboutMe';
