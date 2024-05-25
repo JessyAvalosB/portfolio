@@ -1,4 +1,4 @@
-import { Icon } from '@/app/components'
+import { Icon } from '@/components';
 import { IconsEnum } from '../atoms/Icon/IconTypes'
 
 export const NavMenu = () => {

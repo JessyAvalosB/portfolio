@@ -1,4 +1,4 @@
-import { NavLink } from '@/app/components';
+import { NavLink } from '@/components';
 
 export const NavLinks = () => {
     const navLinks = [

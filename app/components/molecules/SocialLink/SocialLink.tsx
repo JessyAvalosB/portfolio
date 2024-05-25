@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { TextIcon } from '@/app/components'
+import { TextIcon } from '@/components';
 import { IconsEnum } from "../../atoms/Icon/IconTypes";
 import { SocialLinkProps, socialLinkList } from "./SocialLinkTypes";
 

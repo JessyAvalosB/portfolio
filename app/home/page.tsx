@@ -1,5 +1,8 @@
+import { AboutMe } from '@/components';
 export default function Home() {
     return (
-        <div>Home</div>
+        <div className="flex flex-col">
+            <AboutMe />
+        </div>
     )
 }

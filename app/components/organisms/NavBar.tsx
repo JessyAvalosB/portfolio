@@ -1,5 +1,5 @@
 'use client'
-import { NavMenu, NavLinks, NavTitle } from '@/app/components';
+import { NavMenu, NavLinks, NavTitle } from '@/components';
 
 export const NavBar = () => {
     return (

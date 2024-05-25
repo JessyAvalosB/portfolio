@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { Typography } from '@/app/components';
+import { Typography } from '@/components';
 
 import profile1 from '@/public/images/profile_1.jpg';
 import profile2 from '@/public/images/profile_2.jpg';

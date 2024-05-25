@@ -1,4 +1,4 @@
-import { Typography, Icon } from '@/app/components'
+import { Typography, Icon } from '@/components';
 import { TextIconProps, setIconSide } from './TextIconTypes'
 
 export const TextIcon = ({ text, icon, iconSide = 'right', className = '' }: TextIconProps) => {

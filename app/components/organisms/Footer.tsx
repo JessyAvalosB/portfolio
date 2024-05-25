@@ -1,7 +1,9 @@
-import { TextIcon, Typography, SocialLink } from '@/app/components'
+import Link from 'next/link';
+
+import { TextIcon, Typography, SocialLink } from '@/components';
+
 import { SocialLinkEnum } from '../molecules/SocialLink/SocialLinkTypes'
 import { IconsEnum } from '../atoms/Icon/IconTypes'
-import Link from 'next/link'
 
 export const Footer = () => {
     return (
