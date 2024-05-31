@@ -102,6 +102,15 @@ const config: Config = {
     },
     fontSize: {
       ...defaultFontSize,
+    },
+    keyframes: {
+      'slide-x': {
+        '0%': { transform: 'translateX(0)' },
+        '100%': { transform: 'translateX(calc(-250px*40))' },
+      }
+    },
+    animation: {
+      'infinite-slide-x': 'slide-x 250s linear infinite',
     }
   },
   plugins: [],
