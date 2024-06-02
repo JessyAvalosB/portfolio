@@ -107,10 +107,22 @@ const config: Config = {
       'slide-x': {
         '0%': { transform: 'translateX(0)' },
         '100%': { transform: 'translateX(calc(-250px*40))' },
+      },
+      'fading': {
+        '0%': { opacity: '1' },
+        '50%': { opacity: '0.3' },
+        '100%': { opacity: '1' },
+      },
+      'mouseScrollDown': {
+        '0%': { transform: 'translate(-50%,0)' },
+        '70%': { transform: 'translate(-50%,100%)' },
+        '100%': { transform: 'translate(-50%,0)' },
       }
     },
     animation: {
       'infinite-slide-x': 'slide-x 250s linear infinite',
+      'fading': 'fading 1.2s ease infinite',
+      'scrollDown': 'mouseScrollDown 1.2s ease-in-out infinite',
     }
   },
   plugins: [],

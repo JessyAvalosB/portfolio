@@ -3,6 +3,7 @@ export { Input } from './atoms/Input/Input';
 export { Button } from './atoms/Button/Button';
 export { Typography } from './atoms/Typography/Typography';
 export { Slide } from './atoms/Slide/Slide';
+export { MouseScroll } from './atoms/MouseScroll/MouseScroll';
 
 export { NavMenu } from './molecules/NavMenu';
 export { NavTitle } from './molecules/NavTitle';
@@ -16,3 +17,4 @@ export { NavBar } from './organisms/NavBar';
 export { Footer } from './organisms/Footer';
 export { AboutMe } from './organisms/AboutMe';
 export { Stack } from './organisms/Stack';
+export { Welcome } from './organisms/Welcome';
