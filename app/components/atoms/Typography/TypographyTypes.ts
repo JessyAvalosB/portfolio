@@ -9,11 +9,11 @@ export interface TypographyPops {
 }
 
 const typographyClasses = {
-    h1: 'text-6xl font-bold',
+    h1: 'text-6xl font-bold leading-none',
     h2: 'text-5xl font-bold',
     h3: 'text-4xl font-bold',
     h4: 'text-3xl font-bold',
-    h5: 'text-2xl font-bold',
+    h5: 'text-2xl font-bold leading-tight',
     h6: 'text-xl font-bold',
     body: 'text-lg font-normal',
     body2: 'text-base font-normal',

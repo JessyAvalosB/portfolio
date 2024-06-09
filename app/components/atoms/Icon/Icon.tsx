@@ -11,6 +11,6 @@ export const Icon = ({ icon, onClick, size = 'sm', className = '' }: IconProps) 
             height={getIconSize(size)}
             alt={icon}
             onClick={onClick}
-            className={className} />
+            className={`select-none ${className}`} />
     )
 }
