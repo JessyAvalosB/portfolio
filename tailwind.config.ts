@@ -94,6 +94,7 @@ const config: Config = {
         200: '#C3C3C3',
         100: '#F2F2F2',
       },
+      'transparent': 'transparent',
     },
     fontFamily: {
       ptSans: ["PT_Sans", "sans-serif"],

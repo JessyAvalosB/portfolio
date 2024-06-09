@@ -1,8 +1,8 @@
 import { IconsEnum } from "../../atoms/Icon/IconTypes";
 
 export const hidders = {
-    leftHidde: 'before:content-[""] before:h-full before:w-[150px] before:absolute before:left-0 before:top-0 before:bg-gradient-to-r before:from-[#ffffff] before:from-15% before:z-10',
-    rightHidde: 'after:content-[""] after:h-full after:w-[150px] after:absolute after:right-0 after:top-0 after:bg-gradient-to-l after:from-[#ffffff] after:from-15%',
+    leftHidde: 'before:content-[""] before:h-full before:w-[150px] before:absolute before:left-0 before:top-0 before:bg-gradient-to-r before:from-[#ffffff] before:from-20% before:z-10',
+    rightHidde: 'after:content-[""] after:h-full after:w-[150px] after:absolute after:right-0 after:top-0 after:bg-gradient-to-l after:from-[#ffffff] after:from-20%',
 }
 
 export const icons = [
