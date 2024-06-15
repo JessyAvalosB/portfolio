@@ -4,78 +4,6 @@
 
 :root {
   --rem: 8px;
-  --primary: var(--light-blue-500);
-  --secondary: var(--light-brown-500);
-  --acent: var(--light-purple-500);
-  --text-color: var(--shade-50);
-  --background: var(--shade-10);
-
-  --white: #ffffff;
-  --black: #000000;
-
-  --shade-90: #0d0d0d;
-  --shade-80: #171717;
-  --shade-70: #212121;
-  --shade-60: #2b2b2b;
-  --shade-50: #333333;
-  --shade-40: #636363;
-  --shade-30: #939393;
-  --shade-20: #c3c3c3;
-  --shade-10: #f2f2f2;
-
-  --blue-900: #00111a;
-  --light-blue-800: #00202f;
-  --light-blue-700: #002f44;
-  --light-blue-600: #003e59;
-  --light-blue-500: #004b6f;
-  --light-blue-400: #397693;
-  --light-blue-300: #72a1b7;
-  --light-blue-200: #abccdb;
-
-  --dark-blue-800: #244453;
-  --dark-blue-700: #48778c;
-  --dark-blue-600: #6caac5;
-  --dark-blue-500: #8fdbff;
-  --dark-blue-400: #a5e2ff;
-  --dark-blue-300: #bbe9ff;
-  --dark-blue-200: #d1f0ff;
-  --blue-100: #e5f7ff;
-
-  --brown-900: #1a0800;
-  --light-brown-800: #300f00;
-  --light-brown-700: #461600;
-  --light-brown-600: #5c1d00;
-  --light-brown-500: #702300;
-  --light-brown-400: #945639;
-  --light-brown-300: #b88972;
-  --light-brown-200: #dcbcab;
-
-  --dark-brown-800: #533324;
-  --dark-brown-700: #8c5e48;
-  --dark-brown-600: #c5896c;
-  --dark-brown-500: #ffb28f;
-  --dark-brown-400: #ffc1a5;
-  --dark-brown-300: #ffd0bb;
-  --dark-brown-200: #ffdfd1;
-  --brown-100: #ffeee5;
-
-  --purple-900: #1a0011;
-  --light-purple-800: #300020;
-  --light-purple-700: #46002f;
-  --light-purple-600: #5c003e;
-  --light-purple-500: #70004d;
-  --light-purple-400: #943978;
-  --light-purple-300: #b872a3;
-  --light-purple-200: #dcabce;
-
-  --dark-purple-800: #532444;
-  --dark-purple-700: #8c4877;
-  --dark-purple-600: #c56caa;
-  --dark-purple-500: #ff8fdb;
-  --dark-purple-400: #ffa5e2;
-  --dark-purple-300: #ffbbe9;
-  --dark-purple-200: #ffd1f0;
-  --purple-100: #ffe5f7;
 }
 
 html,
@@ -92,14 +20,6 @@ body::webkit-scrollbar {
   display: none;
 }
 
-.dark-mode {
-  --primary: var(--dark-blue-500);
-  --secondary: var(--dark-brown-500);
-  --acent: var(--dark-purple-500);
-  --text-color: var(--shade-20);
-  --background: var(--shade-90);
-}
-
 @font-face {
   font-family: "PT_Sans";
   src: url("../public/fonts/PT_Sans/PTSans-Regular.ttf");
@@ -113,8 +33,4 @@ body::webkit-scrollbar {
 @font-face {
   font-family: "Scope_One";
   src: url("../public/fonts/Scope_One/ScopeOne-Regular.ttf");
-}
-
-icon-reflection-bottom {
-  -webkit-box-reflect: below -5px linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.4));
 }
