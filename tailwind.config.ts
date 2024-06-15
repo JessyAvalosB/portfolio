@@ -23,6 +23,7 @@ const defaultFontSize = {
 };
 
 const config: Config = {
+  darkMode: 'selector',
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -34,6 +35,8 @@ const config: Config = {
       ...defaultScreenSizes,
     },
     colors: {
+      'black': '#000000',
+      'white': '#FFFFFF',
       'primary': {
         DEFAULT: '#004B6F',
         dark: '#8FDBFF'

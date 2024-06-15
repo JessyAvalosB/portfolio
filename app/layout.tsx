@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import './globals.css';
-import { NavBar, Footer } from '@/app/components';
+import { NavBar } from '@/app/components';
 
 export const metadata: Metadata = {
   title: "jessy.me",
@@ -13,8 +13,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className="text-text-color">
+    <html suppressHydrationWarning className="">
+      <body>
         <NavBar />
         <main>
           {children}
