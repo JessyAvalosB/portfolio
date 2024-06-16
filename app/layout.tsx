@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { ThemeProvider } from 'next-themes';
 import './globals.css';
 import { NavBar } from '@/app/components';
 
@@ -13,12 +14,19 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html suppressHydrationWarning className="">
-      <body>
-        <NavBar />
-        <main>
-          {children}
-        </main>
+    <html suppressHydrationWarning>
+      <body className="bg-gray-100 dark:bg-gray-800">
+        <ThemeProvider
+          enableSystem
+          defaultTheme="system"
+          attribute="class"
+          storageKey="jessy-me-theme"
+          themes={['light', 'dark']}>
+          <NavBar />
+          <main>
+            {children}
+          </main>
+        </ThemeProvider>
       </body>
     </html>
   );

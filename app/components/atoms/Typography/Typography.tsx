@@ -12,7 +12,7 @@ export const Typography = ({
     const Component = getTypographyVariants(variant);
     return (
         <Component
-            className={`${className} ${getTypographyClass(variant)} select-none transition-all duration-300`}>
+            className={`text-text-color dark:text-text-color-dark ${className} ${getTypographyClass(variant)} select-none transition-all duration-300`}>
             {children}
         </Component>
     )

@@ -56,6 +56,8 @@ import vitejs from '@/public/icons/vitejs.svg';
 import vscode from '@/public/icons/vscode.svg';
 import vuejs from '@/public/icons/vue-js.svg';
 import xTwitter from '@/public/icons/x-twitter.svg'
+import sun from '@/public/icons/sun.svg';
+import moon from '@/public/icons/moon.svg';
 
 export const Icons: IconsListType = {
     androidSttudio: androidSttudio,
@@ -92,6 +94,7 @@ export const Icons: IconsListType = {
     medium: medium,
     menu: menu,
     mongodb: mongodb,
+    moon: moon,
     mui: mui,
     mysql: mysql,
     nextjs: nextjs,
@@ -107,6 +110,7 @@ export const Icons: IconsListType = {
     slack: slack,
     sqlite: sqlite,
     storybook: storybook,
+    sun: sun,
     tailwindcss: tailwindcss,
     typescript: typescript,
     up: up,
