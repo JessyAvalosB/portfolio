@@ -65,7 +65,7 @@ export const Experiences = () => {
         },
     ]
     return (
-        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-2 md:gap-8 lg:gap-10">
+        <div className="grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-2 md:gap-8 lg:gap-10">
             {experiences.map((experience: ExperienceCardProps, index: number) => (
                 <ExperienceCard key={index} {...experience} />
             ))}

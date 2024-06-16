@@ -10,6 +10,7 @@ export interface ButtonPops {
     disabled?: boolean;
     ariaLabel?: string;
     variant?: ButtonVariants;
+    className?: string;
 }
 
 export const getButtonVariantClass = (variant: ButtonVariants) => {

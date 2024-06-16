@@ -1,4 +1,4 @@
-import { NavLink } from '@/components';
+import { NavLink, ThemeToggle } from '@/components';
 
 export const NavLinks = () => {
     const navLinks = [
@@ -8,10 +8,13 @@ export const NavLinks = () => {
         { label: 'Contact', href: '/contact' },
     ];
     return (
-        <div className='hidden gap-4 md:max-3xl:flex'>
-            {navLinks.map((link) => (
-                <NavLink key={link.href} {...link} />
-            ))}
+        <div className='hidden md:flex items-center gap-x-10'>
+            <div className='flex gap-x-10'>
+                {navLinks.map((link) => (
+                    <NavLink key={link.href} {...link} />
+                ))}
+            </div>
+            <ThemeToggle />
         </div>
     )
 }

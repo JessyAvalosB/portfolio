@@ -1,5 +1,4 @@
 import type { Config } from "tailwindcss";
-
 const defaultScreenSizes = {
   xs: '320px',
   sm: '480px',
@@ -21,9 +20,8 @@ const defaultFontSize = {
   '5xl': '4.209rem',    // 67.34px
   '6xl': '5.61rem',    // 89.76px
 };
-
 const config: Config = {
-  darkMode: 'selector',
+  darkMode: 'class',
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -35,8 +33,8 @@ const config: Config = {
       ...defaultScreenSizes,
     },
     colors: {
-      'black': '#000000',
-      'white': '#FFFFFF',
+      'black': '#171717',
+      'white': '#F2F2F2',
       'primary': {
         DEFAULT: '#004B6F',
         dark: '#8FDBFF'

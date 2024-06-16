@@ -14,6 +14,7 @@ export { NavLink } from './molecules/NavLink/NavLink';
 export { TextIcon } from './molecules/TextIcon/TextIcon';
 export { Slider } from './molecules/Slider/Slider';
 export { ExperienceCard } from './molecules/ExperiencieCard/ExperienceCard';
+export { ThemeToggle } from './molecules/ThemeToggle/ThemeToggle';
 
 export { NavBar } from './organisms/NavBar';
 export { Footer } from './organisms/Footer';

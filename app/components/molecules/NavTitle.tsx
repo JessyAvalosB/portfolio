@@ -12,7 +12,7 @@ export const NavTitle = ({ }) => {
             <Link href='/'>
                 <Typography
                     variant='h5'
-                    className='relative bg-gradient-to-r from-[#fff] from-90%'>
+                    className='relative bg-gradient-to-r from-white from-90% dark:from-black dark:from-90%'>
                     jessy
                     <span
                         className={`absolute ${toggleShowTitleText()} transition-all duration-500 ease-in-out`}>
