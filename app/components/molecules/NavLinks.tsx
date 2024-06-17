@@ -8,7 +8,7 @@ export const NavLinks = () => {
         { label: 'Contact', href: '/contact' },
     ];
     return (
-        <div className='hidden md:flex items-center gap-x-10'>
+        <div className='items-center hidden md:flex gap-x-12'>
             <div className='flex gap-x-10'>
                 {navLinks.map((link) => (
                     <NavLink key={link.href} {...link} />

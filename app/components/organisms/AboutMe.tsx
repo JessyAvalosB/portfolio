@@ -6,7 +6,7 @@ import profile2 from '@/public/images/profile_2.jpg';
 export const AboutMe = () => {
     const profilePictureSize = 140
     return (
-        <div className="flex flex-col items-center gap-4">
+        <div className="flex flex-col items-center gap-y-6">
             <div>
                 <Typography
                     className='text-primary'

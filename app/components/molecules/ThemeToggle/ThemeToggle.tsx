@@ -26,10 +26,14 @@ export const ThemeToggle = () => {
     <div
       className={`relative flex px-2 py-1 border-2 rounded-full gap-x-1 cursor-pointer before:content-[""] before:absolute before:h-6 before:w-6 before:rounded-full before:z-10 before:transition-all ${toggleTheme}`}
       onClick={handdleToggleTheme}>
-      <Icon icon={IconsEnum.sun} size='sm' />
-      <Icon icon={IconsEnum.moon} size='sm' className='filter invert-[99%] sepia-[3%] saturate-[15%] hue-rotate-[194deg] brightness-[113%] contrast-[90%]' />
+      <Icon
+        icon={IconsEnum.sun}
+        size='sm'
+        color='black' />
+      <Icon
+        icon={IconsEnum.moon}
+        size='sm'
+        color='white' />
     </div>
   )
 }
-
-/* invert(99%) sepia(3%) saturate(15%) hue-rotate(194deg) brightness(113%) contrast(90%) */

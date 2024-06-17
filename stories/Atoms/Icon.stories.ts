@@ -15,6 +15,7 @@ const meta = {
         onClick: fn(),
         size: "sm",
         className: "",
+        color: 'black',
     },
 } satisfies Meta<typeof Icon>;
 

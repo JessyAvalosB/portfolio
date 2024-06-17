@@ -1,9 +1,9 @@
 import Image from "next/image";
 
 import { Icons } from "./Icons";
-import { IconProps, getIconSize } from "./IconTypes";
+import { IconProps, getIconSize, iconFilters } from "./IconTypes";
 
-export const Icon = ({ icon, onClick, size = 'sm', className = '' }: IconProps) => {
+export const Icon = ({ icon, onClick, color = 'none', size = 'sm', className = '' }: IconProps) => {
     return (
         <Image
             src={Icons[icon]}
@@ -11,6 +11,6 @@ export const Icon = ({ icon, onClick, size = 'sm', className = '' }: IconProps) 
             height={getIconSize(size)}
             alt={icon}
             onClick={onClick}
-            className={`select-none ${className}`} />
+            className={`select-none ${className} ${iconFilters[color]}`} />
     )
 }

@@ -1,4 +1,4 @@
-import { ExperienceCard } from '@/components';
+import { ExperienceCard, Typography } from '@/components';
 import { ExperienceCardProps } from '../molecules/ExperiencieCard/ExperienceCardTypes';
 export const Experiences = () => {
     const experiences: ExperienceCardProps[] = [
@@ -65,10 +65,16 @@ export const Experiences = () => {
         },
     ]
     return (
-        <div className="grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-2 md:gap-8 lg:gap-10">
-            {experiences.map((experience: ExperienceCardProps, index: number) => (
-                <ExperienceCard key={index} {...experience} />
-            ))}
+        <div className='flex flex-col items-center gap-y-6'>
+            <Typography
+                variant='h4'>
+                Experience
+            </Typography>
+            <div className="grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 md:gap-8 lg:gap-10">
+                {experiences.map((experience: ExperienceCardProps, index: number) => (
+                    <ExperienceCard key={index} {...experience} />
+                ))}
+            </div>
         </div>
     )
 }
