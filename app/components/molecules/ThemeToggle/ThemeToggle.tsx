@@ -28,7 +28,8 @@ export const ThemeToggle = () => {
       onClick={handdleToggleTheme}>
       <Icon
         icon={IconsEnum.sun}
-        size='sm' />
+        size='sm'
+        color='black' />
       <Icon
         icon={IconsEnum.moon}
         size='sm'
@@ -36,5 +37,3 @@ export const ThemeToggle = () => {
     </div>
   )
 }
-
-/* invert(99%) sepia(3%) saturate(15%) hue-rotate(194deg) brightness(113%) contrast(90%) */

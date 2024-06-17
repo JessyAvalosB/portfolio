@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Icons } from "./Icons";
 import { IconProps, getIconSize, iconFilters } from "./IconTypes";
 
-export const Icon = ({ icon, onClick, color = 'black', size = 'sm', className = '' }: IconProps) => {
+export const Icon = ({ icon, onClick, color = 'none', size = 'sm', className = '' }: IconProps) => {
     return (
         <Image
             src={Icons[icon]}

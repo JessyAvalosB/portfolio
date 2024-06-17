@@ -1,5 +1,5 @@
 import xTwitter from '@/public/icons/x-twitter.svg';
-export type filter = 'white' | 'black' | 'gray' | 'blue' | 'brown' | 'purple';
+export type filter = 'white' | 'black' | 'gray' | 'blue' | 'brown' | 'purple' | 'none';
 export type IconSizes = 'xs' | 'sm' | 'md' | 'lg';
 export type IconsListType = {
     [key in IconsEnum]: IIcon;
@@ -74,6 +74,7 @@ export const iconFilters: Record<filter, string> = {
     brown: 'filter invert-[15%] sepia-[53%] saturate-[3447%] hue-rotate-[17deg] brightness-[97%] contrast-[105%]',
     purple: 'filter invert-[13%] sepia-[26%] saturate-[7481%] hue-rotate-[299deg] brightness-[95%] contrast-[117%]',
     gray: 'filter invert-[15%] sepia-[0%] saturate-[1131%] hue-rotate-[136deg] brightness-[106%] contrast-[87%]',
+    none: '',
 }
 
 export interface IconProps {
