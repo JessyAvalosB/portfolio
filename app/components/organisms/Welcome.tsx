@@ -3,7 +3,7 @@
 import { Typography, MouseScroll } from '@/components'
 export const Welcome = () => {
     return (
-        <div className='flex flex-col items-center justify-center text-center relative h-[calc(100vh-75px)]'>
+        <div className='relative flex flex-col items-center justify-center h-screen text-center'>
             <div className='flex flex-col xs:-translate-y-1/4 sm:-translate-y-3/4 gap-y-6'>
                 <Typography
                     variant='h1'
