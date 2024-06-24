@@ -11,12 +11,12 @@ export interface NavLinkProps {
 
 export const NavLink = ({ label, href }: NavLinkProps) => {
     const pathName = usePathname();
-    const setActiveNavLink = (href: string): string => pathName === href ? 'text-primary' : ''
+
     return (
-        <Link key={label} href={href}>
+        <Link key={label} href={href} >
             <Typography
                 variant='navLink'
-                className={`${setActiveNavLink(href)}`}>
+                className={`${pathName === href && 'underline'}`}>
                 {label}
             </Typography>
         </Link>

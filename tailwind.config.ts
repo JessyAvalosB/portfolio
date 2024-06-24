@@ -119,12 +119,34 @@ const config: Config = {
         '0%': { transform: 'translate(-50%,0)' },
         '70%': { transform: 'translate(-50%,100%)' },
         '100%': { transform: 'translate(-50%,0)' },
+      },
+      'moveDownNavBar': {
+        'from': {
+          opacity: '0',
+          top: '-50px',
+        },
+        'to': {
+          opacity: '1',
+          top: '0px',
+        }
+      },
+      'moveUpNavBar': {
+        'from': {
+          opacity: '1',
+          top: '0px',
+        },
+        'to': {
+          opacity: '0',
+          top: '-500px',
+        }
       }
     },
     animation: {
       'infinite-slide-x': 'slide-x 250s linear infinite',
       'fading': 'fading 1.2s ease infinite',
       'scrollDown': 'mouseScrollDown 1.2s ease-in-out infinite',
+      'fade-in-up': 'moveDownNavBar 1s ease-in-out',
+      'fade-out-up': 'moveUpNavBar 1s ease-in-out',
     }
   },
   plugins: [],

@@ -24,7 +24,7 @@ export const ThemeToggle = () => {
   };
   return (
     <div
-      className={`relative flex px-2 py-1 border-2 rounded-full gap-x-1 cursor-pointer before:content-[""] before:absolute before:h-6 before:w-6 before:rounded-full before:z-10 before:transition-all ${toggleTheme}`}
+      className={`relative bg-transparent flex px-2 py-1 border-2 rounded-full gap-x-1 cursor-pointer before:content-[""] before:absolute before:h-6 before:w-6 before:rounded-full before:z-10 before:transition-all ${toggleTheme}`}
       onClick={handdleToggleTheme}>
       <Icon
         icon={IconsEnum.sun}

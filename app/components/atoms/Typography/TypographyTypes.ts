@@ -20,7 +20,7 @@ const typographyClasses = {
     small: 'text-sm font-normal',
     inputLabel: 'text-base font-semibold',
     link: 'text-lg font-normal hover:underline hover:cursor-pointer',
-    navLink: 'text-lg font-bold hover:text-blue-700 active:text-blue-500 hover:cursor-pointer',
+    navLink: 'text-lg font-bold hover:underline hover:cursor-pointer',
     default: 'text-sm font-normal',
 }
 
