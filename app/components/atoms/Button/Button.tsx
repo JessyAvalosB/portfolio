@@ -12,7 +12,7 @@ export const Button = ({
 
     return (
         <button
-            className={`flex py-2 px-4 rounded-2xl hover:transition-all ease-in-out disabled:opacity-50  ${getButtonVariantClass(variant)} ${className}`}
+            className={`flex py-2 px-4 w-fit rounded-2xl text-text-color dark:text-text-color-dark transition-all ease-in-out disabled:opacity-50  ${getButtonVariantClass(variant)} ${className}`}
             type={type}
             onClick={onClick}
             disabled={disabled}
