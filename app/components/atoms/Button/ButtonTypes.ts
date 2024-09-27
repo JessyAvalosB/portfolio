@@ -22,7 +22,7 @@ export const getButtonVariantClass = (variant: ButtonVariants) => {
         case 'secondaryOutline':
             return 'text-secondary font-bold border-2 border-secondary enabled:hover:bg-brown-500 enabled:active:bg-brown-600 enabled:hover:text-text-color';
         case 'primaryGhost':
-            return 'text-primary font-bold enabled:hover:text-blue-600 enabled:active:text-blue-700';
+            return 'font-bold enabled:hover:bg-black enabled:hover:text-text-color-dark enabled:hover:dark:bg-white enabled:hover:dark:text-text-color';
         case 'secondaryGhost':
             return 'text-secondary font-bold enabled:hover:text-brown-600 enabled:active:text-brown-700';
         case 'primary':
